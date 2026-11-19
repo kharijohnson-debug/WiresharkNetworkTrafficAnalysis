@@ -43,8 +43,9 @@ Captured approximately 25,086 packets using Wireshark on the Mac's Wi-Fi interfa
 
 Applied the dns display filter to isolate DNS traffic from the broader network capture.
 
-2. DNS Query and Response Inspection
+ ## DNS Query and Response Inspection
 ![DNS Packet Inspection](images/dns-packet-inspection.png)
+
 Inspected DNS packets to understand how the host requested domain name resolution and received responses.
 
 Analyzed:
