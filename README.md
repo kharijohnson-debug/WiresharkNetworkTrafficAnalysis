@@ -64,7 +64,8 @@ Time-to-live (TTL) values
 One examined transaction involved the domain clients1.google.com, which resolved to 142.251.211.174, with an observed response time of approximately 119.616 milliseconds.
 
 3. DNS Anomaly Investigation
-dns-long-query-investigation.png
+![DNS Long Query Investigation](images/dns-long-query-investigation.png)
+
 Applied targeted Wireshark display filters to investigate DNS behavior.
 
 Display Filter
@@ -100,7 +101,8 @@ The investigation identified several long DNS query names associated with common
 Long domain names can warrant further investigation, but their length alone does not establish malicious activity or DNS tunneling.
 
 4. DNS Statistical Analysis
-dns-statistics.png
+![DNS Statistics](images/dns-statistics.png)
+
 Used Wireshark's DNS statistics to examine the captured traffic.
 
 Metric
@@ -138,7 +140,8 @@ Average response time
 The observed query and response counts were balanced, with no DNS error responses reported in the analyzed sample.
 
 5. DNS Traffic Visualization
-dns-query-response-graph.png
+![DNS Query and Response Graph](images/dns-query-response-graph.png)
+
 Configured Wireshark I/O Graphs to visualize DNS traffic over time.
 
 Created separate plots for:
